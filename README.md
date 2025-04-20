@@ -12,7 +12,12 @@ BMP Audio Glitch Art è un'applicazione desktop sviluppata in Python + PyQt5 che
 
 🎚️ Controlla l'intensità dell'effetto tramite slider.
 
+🎛️​ Funzione Audio Export e Import: Puoi esportare l'immagine in formato audio wave entrare in una Daw a tua scelta,
+applicare effetti, riesportare e re Importare con le modifiche.
+
 🧪 Interfaccia semplice, perfetta per sperimentare glitch art in modo creativo.
+
+
 
 🧠 Come funziona
 L'app legge il contenuto binario del file BMP, separa l'header dai dati dei pixel e applica una trasformazione basata su tecniche di elaborazione del segnale audio. Il risultato è una reinterpretazione visiva dei concetti audio, con un’estetica glitch unica.
@@ -26,3 +31,9 @@ SciPy
 ▶️ Avvio rapido
 pip install -r requirements.txt
 python bmp_glitch_app.py
+
+
+🧁​🖥️​ Windows 11 🧁​🖥️​
+Per gli utenti Windows , nella cartella "dev" è già presente la versione compilata e avviabile senza nessun pre requisito.
+
+
